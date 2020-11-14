@@ -3,27 +3,27 @@ const Portfolio = function() {
 		var words = [
 			 {
 				text: "css3",
-				weight: 11
+				weight: 13
 			}, {
 				text: "javascript",
-				weight: 11
+				weight: 12
 			}, {
 				text: "jquery",
-				weight: 7
+				weight: 12
 			}, {
 				text: "programming",
-				weight: 10
+				weight: 13
 			}, {
 				text: "python",
 				weight: 14
 			},
 			{
 				text: "Html5",
-				weight: 6
+				weight: 12
 			},
 			{
 				text: "Bootstrap",
-				weight: 8
+				weight: 13
 			},
 		];
 		return words;
