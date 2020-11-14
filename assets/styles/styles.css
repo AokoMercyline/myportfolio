@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #273746 ;
+		background-color: black ;
 }
 
 
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background: #E3E3E3;
+		background: black;
 }
 
 .img-circle {
@@ -49,22 +49,6 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: none;
 }
 
-/*#my-modal {
-	display: none;
-}
-
-.my-form {
-	margin-top: 20em;
-}
-
-.custombox-content {
-	background: #212332;
-}*/
-
-/**********************************/
-
-
-/*** thin bar ***/
 
 .thin-bar {
 		border-bottom: 5px solid #F33F12;
@@ -75,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
 		margin-top: 10em;
-		border: 1px solid #eee;
-		background-color: #D5D8DC ;
+		/* border: 1px solid #eee; */
+		background-color: black ;
 		padding-bottom: 1em;
 }
 
@@ -91,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about h2 {
-		color: #646464;
+		color: white;
 		font-size: 3.8em;
 		padding-bottom: 1em;
 }
@@ -131,7 +115,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa {
-	/* font-size: 1.2em; */
 	padding: 0.1em 0.4em;
 	color: black;
 }
@@ -142,12 +125,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color: black;
 	padding: 6em 4em 5.6em;
 }
 
 #experience h2 {
-	color: #fff;
+	color:  #FF6945;
 	margin-bottom: .7em;
 }
 
@@ -181,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
-	background-color: #fff;
+	background-color: black;
 }
 
 #work h2 {
@@ -194,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work .tag-line {
-	color: #767779;
+	color: white;
 	font-size: 1.4em;
 	margin-bottom: 4em;
 }
@@ -204,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details h3 {
-	color: #738182;
+	color:  #FF6945;
 	text-transform: uppercase;
 }
 
@@ -223,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details p {
-	color: #738182;
+	color: white;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
@@ -233,12 +216,12 @@ h1, h2, h3, h4, h5, h6 {
 .details a, .details a:link, .details a:active{
 		color: rgba(255, 103, 68, 0.91);
 		border: 2px solid rgba(255, 103, 68, 0.91) !important;
-		background-color: #fff;
+		background-color: black;
 }
 
 .details a:hover, .details a:focus {
 		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-		background-color: rgba(255, 103, 68, 0.91) !important;
+		background-color:black;
 		color: #fff;
 }
 
@@ -248,11 +231,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #teaching h2 {
-	color: #595959;
+	color: #FF6945;
 }
 
 #teaching .tag-line {
-	color: #848282;
+	color: white;
 	font-size: 1.4em;
 }
 
@@ -260,6 +243,11 @@ h1, h2, h3, h4, h5, h6 {
 	height: 350px;
 	width: auto;
 	margin-top: -4em;
+}
+
+.teaching-domains img {
+	width: 50px;
+	padding-top: 50px;
 }
 
 
