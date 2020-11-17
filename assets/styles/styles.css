@@ -6,7 +6,9 @@ body, html {
 		background-color: black ;
 }
 
-
+.side-nav.wide.slim {
+	width: 3.75rem !important;
+  }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif !important;
@@ -251,28 +253,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: black;
 	padding: 6em 4em 5.6em;
 }
 
@@ -292,9 +275,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer-cta a {
-	border: 2px solid #fff;
-	border-radius: 45px;
-	color: #fff;
+		color: white;
+		text-transform: uppercase;
+		border: 2px solid rgba(255, 103, 68, 0.91);
+		border-radius: 50px;
+		background: rgba(255, 103, 68, 0.91);
 }
 
 #footer-cta a:hover {
@@ -307,10 +292,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
 	padding: 5em 4em 2em;
-	
-	background-color: #273746 ;
+	color: white;
+	background-color:black;
 }
 
+#footer h4{
+	font-size: 30px;
+	font-weight: 900;
+	color:rgba(255, 103, 68, 0.91);
+}
 #footer #logo {
 	background-color: rgba(255, 103, 68, 0.91);
 	border-radius: 50%;
